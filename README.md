@@ -1,4 +1,4 @@
-### 개요
+### Introduction
 - 내부 직원이 활용하는 자연어 처리 및 다양한 작업들의 자동화 페이지입니다.
 - streamlit으로 배포하였으며 pm2로 관리합니다.
 - 각 메뉴들에 대한 설명은 아래와 같습니다
@@ -11,7 +11,7 @@
     - ACC Automation: 아시아문화전당 전용 메뉴
     - HSA: 번역 결과물 검토 자동화 (선아 씨)
     - LKH: 세계 법제처 조문 체계 자동화
-### 구성
+### File Trees
 ```
 /home/lexcode/바탕화면/workspace/KyungillJung/230911-automation_v2
 ├── README.md
@@ -47,7 +47,7 @@
     └── word_count.py
 ```
 
-### 실행방법
+### How to Run
 - streamlit으로 앱을 실행할 때 python ~.py 로 실행하는 것이 아닌 streamlit run ~.py 방식으로 실행되며 앱 자체를 pm2 로 관리하기 때문에 subprocessor를 통해 실행 됨
 - 실행하는 방법은 아래와 같음
     
