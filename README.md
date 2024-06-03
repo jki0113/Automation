@@ -1,19 +1,16 @@
-### 담당자
-- 석슬기
-
 ### 개요
-딥러닝 연구팀 자동화 업무 요청 시 자주 요청하는 PM도 매번 작업하는 저도 불편함이 있어서 만든 자동화 페이지 입니다. 6층 딥러닝 연구팀 서버에 배포하였으며 streamlit 기반으로 프론트를 제작하였습니다. 자동화는 개발자 개개인이 가장 편하고 쉬운 방법으로 작업하는게 제일 효율적이라고 판단하여 현재 진행중인 세계법제처 이외에는 유지보수 계획은 없습니다.
-
-### 필요기술
-- gpt 비동기 처리
-- streamlit
-- 각종 요청사항에 요구되는 기술
-### 환경
-- 서버: 6층 딥러닝 연구팀 서버
-- 가상환경: jki_automation
-- 포트: 8888:8888
-- 위치: /home/lexcode/바탕화면/workspace/KyungillJung/230911-automation_v2
-- 깃허브 주소: https://github.com/LexcodeHQ/automation
+- 내부 직원이 활용하는 자연어 처리 및 다양한 작업들의 자동화 페이지입니다.
+- streamlit으로 배포하였으며 pm2로 관리합니다.
+- 각 메뉴들에 대한 설명은 아래와 같습니다
+    - Prompt Test: 각종 LLM을 테스트 할 수 있는 프롬프트 테스트
+    - GPT Excel Automation: GPT를 엑셀 각 row에 일괄 적용
+    - Language Extraction: 엑셀 전체 row에 언어를 추출
+    - Differences Comparsions: 엑셀에서 두개의 컬럼의 변경률과 변경된 부분 색 표시
+    - Word Count: 파일 내의 용어집 빈도 수 추출
+    - Apply Vocab: 문장에 적용되어야 할 용어집 추출
+    - ACC Automation: 아시아문화전당 전용 메뉴
+    - HSA: 번역 결과물 검토 자동화 (선아 씨)
+    - LKH: 세계 법제처 조문 체계 자동화
 ### 구성
 ```
 /home/lexcode/바탕화면/workspace/KyungillJung/230911-automation_v2
